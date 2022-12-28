@@ -371,7 +371,7 @@ def get_players():
         player['skill_moves'] = player_skill_moves
         players.append(player)
 
-    if not draftModeOn:
+    if draftModeOn:
         random.shuffle(players)
     #players = [{'name':'Leonel Messi', 'shooting':90, 'dribbling':85, 'pace':98, 'passing':'86', 'defense':74, 'nationality':'Argentina', 'club':'Barcelona'},
             #{'name':'Christiano Renaldo', 'shooting':92, 'dribbling':91, 'pace':96, 'passing':'89', 'defense':72, 'nationality':'Portugal', 'club':'Juventus'}]

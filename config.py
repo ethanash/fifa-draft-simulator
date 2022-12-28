@@ -18,7 +18,7 @@ from oauthlib.oauth2 import WebApplicationClient
 import os
 
 # Change these values as appropriate for your postgresql setup.
-database = 'postgres://vmnqpbahyrvdno:ee8945c2829707b6e5a4afde70e5ff02a63dfe1cbf6f9ce1806ecc95e9d8f9f6@ec2-52-54-237-144.compute-1.amazonaws.com:5432/d5h3i71u724iml'
+database = 'fifa'
 user = 'ethanash'
 password = ''
 
